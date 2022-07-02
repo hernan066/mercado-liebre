@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-amarillo:#EAC926;
+    --color-azul:#03264C;
+    --color-celeste:#1259c3;
+    --color-gris-oscuro:#666;
+    --color-gris-claro:#ebebeb;
+    --color-verde:#39b54a;
+    --color-negro: #111;
+
+    --font-general: 'Roboto';
+
+    --font-size-cuerpos: 12px;
+    --font-size-titulos: 24px;
+    --font-size-precios: 18px;
+    --font-size-descuentos: 16px;
+    --font-size-descripciones: 16px;
+}
+body{
+    font-family: var(--font-general);
+    background-color: var(--color-amarillo);
+}
+
+h2{
+    font-size: var(--font-size-titulos);
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

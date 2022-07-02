@@ -4,24 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Mercado Liebre -Home-</title>
   </head>
   <body class="home__container">
     <!-- -----------------start header------------------- -->
 
     <header class="home__header__container">
-      <div class="home__header__logo">
-        <img src="/images/logo-mercado-liebre.svg" alt="logo" />
+      <div class="home__header__navbar">
+        <div class="home__header__logo">
+          <img src="/images/logo-mercado-liebre.svg" alt="logo" />
+        </div>
+
+        <div class="home__header__search">
+          <form class="home__header__search__form">
+            <input type="text" placeholder="Buscar productos, marcas" />
+            <button class="home__header__search__form__btn">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
       </div>
 
-      <div class="home__header__search">
-        <form class="home__header__search__form">
-          <input type="text" />
-          <button class="home__header__search__form__btn">Buscar</button>
-        </form>
-      </div>
-
-      <p>Comprá en cuotas y sin tarjeta de crédito</p>
+      <p>
+        <i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin
+        tarjeta de crédito
+      </p>
 
       <nav class="home__header__nav">
         <ul>
@@ -36,6 +51,9 @@
           <li><a href="">Mis compras</a></li>
         </ul>
       </nav>
+      <div class="home__header__btn__menu center">
+        <button><i class="fa-solid fa-bars"></i></button>
+      </div>
     </header>
     <!-- -----------------end header------------------- -->
 
