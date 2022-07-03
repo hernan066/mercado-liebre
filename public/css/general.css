@@ -11,7 +11,9 @@
     --color-gris-oscuro:#666;
     --color-gris-claro:#ebebeb;
     --color-verde:#39b54a;
+    
     --color-negro: #111;
+    --color-blanco: #fff;
 
     --font-general: 'Roboto';
 
@@ -23,14 +25,39 @@
 }
 body{
     font-family: var(--font-general);
-    background-color: var(--color-amarillo);
+    background-color: var(--color-gris-claro);
 }
 
-h2{
+p , a{
+    font-size: var(--font-size-cuerpos);
+}
+
+
+
+/* Modificadores de texto */
+
+.cuerpo-tex{
+    font-size: var(--font-size-cuerpos);
+}
+.titulo{
     font-size: var(--font-size-titulos);
 }
+.precio{
+    font-size: var(--font-size-precios);
+}
+.descuento{
+    font-size: var(--font-size-descuentos);
+}
+.descripcion{
+    font-size: var(--font-size-descripciones);
+}
+
+/* modificadores de posicion */
+
 .center{
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+

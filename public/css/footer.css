@@ -1,0 +1,17 @@
+.home__footer__container{
+    background-color: var(--color-blanco);
+    margin: 5px 3px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.home__footer__section{
+    margin-bottom: 40px;
+    padding: 0 30px;
+}
+.home__footer__section i{
+    font-size: 2rem;
+    color: var(--color-celeste);
+    margin-bottom: 10px;
+}

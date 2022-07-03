@@ -2,6 +2,7 @@
   padding: 10px 0px;
   color: var(--color-negro);
   margin-bottom: 20px;
+  background-color: var(--color-amarillo);
 }
 .home__header__container p {
   text-align: center;
