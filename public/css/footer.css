@@ -1,9 +1,9 @@
 .home__footer__container{
     background-color: var(--color-blanco);
     margin: 5px 3px;
-    text-align: center;
-    padding-top: 40px;
     padding-bottom: 20px;
+    padding-top: 40px;
+    text-align: center;
 }
 
 .home__footer__section{
@@ -11,7 +11,10 @@
     padding: 0 30px;
 }
 .home__footer__section i{
-    font-size: 2rem;
     color: var(--color-celeste);
+    font-size: 2rem;
     margin-bottom: 10px;
+}
+.home__header__nav{
+    display: none;
 }

@@ -9,3 +9,7 @@
 
 - Fecha de inicio:  28 de Junio.
 - Fecha de entrega:  5 de Julio.
+## 3 - Diseño adaptativo
+
+- Fecha de inicio:  5 de Julio.
+- Fecha de entrega:  12 de Julio.
