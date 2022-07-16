@@ -1,10 +1,20 @@
 .home__main__container {
   margin: 0 auto;
   width: 90%;
+ 
+}
+.home__main__section__banner{
+  width: 100%;
+  display: none;
+}
+.home__main__section__banner img{
+  width: 100%;
 }
 .home__main__section__last__view h2, 
 .home__main__section__offer h2 {
   margin-bottom: 10px;
+  padding: 4% 2%;
+  display: flex;
 }
 
 .home__main__product__card {
@@ -19,6 +29,11 @@
 }
 .home__main__product__card__info {
   padding: 15px;
+  position: relative;
+}
+.card_flex-row{
+  display: flex;
+  gap: 10px;
 }
 .home__main__product__card__info .descuento {
   margin-bottom: 15px;
@@ -27,15 +42,50 @@
   border-radius: 50%;
   border: 2px solid var(--color-verde);
   color: var(--color-verde);
-  height: 40px;
-  width: 40px;
+  height: 32px;
+  width: 32px;
+  position: absolute;
+  top: -15px;
+  right: 20px;
 }
 
+
 @media screen and (min-width: 768px) {
+  .home__main__container {
+  
+    width: 100%;
+   padding-bottom: 20px;
+  }
+  .home__main__section__banner{
+    display: block;
+  }
   .home__main__product__card {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
   }
   .home__main__product__card .descripcion{
     display: none;
+  }
+  .home__main__product__cards{
+    margin: 0 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  .home__main__product__card {
+   max-width: 44%;
+  }
+  .home__main__section__last__view h2, 
+.home__main__section__offer h2 {
+  margin-bottom: 10px;
+  padding: 20px 0px;
+  display: flex;
+  margin: 0 40px;
+}
+}
+@media screen and (min-width: 1024px) {
+  
+  .home__main__product__card {
+   max-width: 22%;
   }
 }
