@@ -21,7 +21,7 @@
   --font-size-titulos: 24px;
   --font-size-precios: 18px;
   --font-size-descuentos: 16px;
-  --font-size-descripciones: 16px;
+  --font-size-descripciones: 17px;
 }
 body {
   font-family: var(--font-general);
@@ -50,6 +50,7 @@ a {
 }
 .descripcion {
   font-size: var(--font-size-descripciones);
+  color: var(--color-gris-oscuro);
 }
 
 /* modificadores de posicion */

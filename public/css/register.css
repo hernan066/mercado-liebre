@@ -69,8 +69,22 @@
 .jc-sb {
   justify-content: space-between;
 }
+
+#register__enviar{
+  transition: all 0.4s ease;
+}
+#register__enviar:hover{
+  background-color:#0022AA;
+  cursor: pointer;
+}
+
 #register__borrar {
   background-color: rgb(174, 23, 23);
+  transition: all 0.4s ease;
+}
+#register__borrar:hover {
+  background-color: rgb(140, 11, 11);
+  cursor: pointer;
 }
 @media screen and (min-width: 768px) {
   .register__form__container {
