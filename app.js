@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require("express");
 const path = require("path");
 const app = express();
@@ -12,4 +13,4 @@ app.get("/login", (req, res) => res.sendFile(path.join(__dirname, "views", "logi
 app.use(express.static("public"));
 
 //init server
-app.listen(port, () => console.log("Server running in http://localhost:" + port));
+app.listen(process.env.PORT || port , () => console.log("Server running"));
