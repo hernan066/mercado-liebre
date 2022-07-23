@@ -22,3 +22,7 @@
 
 - Fecha de inicio:  18 de Julio.
 - Fecha de entrega:  25 de Julio.
+## 6 - [Animaciones](https://github.com/hernan066/mercado-liebre/tree/animaciones)
+
+- Fecha de inicio:  22 de Julio.
+- Fecha de entrega:  28 de Julio.
